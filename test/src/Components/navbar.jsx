@@ -6,7 +6,7 @@ import '../assets/style.css'
 const Navbar = () => {
     return (
        <div>
-         <div id="header" className="flex justify-around bg-black pt-2 pb-2">
+         {/* <div id="header" className="flex justify-around bg-black pt-2 pb-2">
                 <div id="logo" className="flex gap-3">
                     <a  rel="noopener" href="#follow_me_on"><img src="./images/logo.png" alt="" className="w-[50px] h-[50px] pt-1"/></a>
                     <p className="text-4xl pt-2 font-bold">A.Z</p>
@@ -33,7 +33,7 @@ const Navbar = () => {
                       <button className="btn btn-secondary" type="button">A Button</button>
                     </div>
                   </div>
-            </div>
+            </div> */}
        </div>
     );
 };
