@@ -11,14 +11,13 @@ import Footer from '../Components/footer';
 const Home = () => {
     return (
       <div>
-        <Navbar/>
-        <Footer/>
+        <Footer/> 
+        {/* <Navbar/> */}
         {/* <Explore/>
         <ReachOut/>
         <Testimonial/>
         <Subscription/>
-        <TakeStep/>
-        <Footer/> */}
+        <TakeStep/>*/}
       </div>
     )
   }
