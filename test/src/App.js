@@ -9,10 +9,10 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
+    
       <Router>
         <Routes>
-        <Route path="/" index Component={Layout}/>
-        <Route path="/Home" Component={Home} />
+        <Route path="/" exact Component={Home}/>
         <Route path="/Dashboard" Component={Dashboard} />
         {/* <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -21,6 +21,7 @@ function App() {
         </Routes>
       </Router>
   );
+      
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
